@@ -1,0 +1,31 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  /* A nice, modern gradient background */
+  background: linear-gradient(to right, #2c3e50, #4ca1af);
+  background-attachment: fixed; 
+}
+
+/* For smooth dark-mode transitions */
+body, .card, .modal-content, .accordion-button, .accordion-body {
+  transition: background-color 0.3s ease, color 0.3s ease !important;
+}
+
+/* The "frosted glass" effect */
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* For Safari browser support */
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
